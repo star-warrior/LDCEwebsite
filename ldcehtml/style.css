@@ -531,4 +531,61 @@ header.scrolled{
   }
 } */
 
+.dropdown-content {
 
+  display: none;
+  position: absolute;
+  top: 90%;
+  background-color: #f1f1f1;
+  color: #c31111;
+  min-width: 505px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.dropdown-content a {
+  color:black!important;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {color: #cc5252 !important;
+
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: grid;
+grid-template-columns: repeat(2 , 300px);
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+/* .dropdown:hover .dropbtn {background-color: #3e8e41;} */
+/* .sec1{
+display: grid;
+grid-template-columns: repeat(2 , 200px);
+} */
+
+#intake{
+  color: white;
+  background-color: black;
+  padding: 0px 10px;
+  /* margin-left: 10px; */
+  /* margin-top: 20px;
+   */
+   position: relative;
+   top: 5px;
+
+}
+.sec1:hover{
+border:  1px solid orangered;
+/* display: inline; */
+width: fit-content;
+margin: 5px;
+border-radius: 0px 0px 15px 15px;
+
+}
