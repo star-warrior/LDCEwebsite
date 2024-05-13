@@ -437,4 +437,98 @@ header.scrolled{
   }
 
 
+/*   .navbar-links li {
+    margin-bottom: 10px;
+    /* Add spacing between links */
+  }
+}
+
+/* Media query for larger screens (optional) */
+@media only screen and (min-width: 768px) {
+  /* Adjustments for larger screens, if needed */
+}
+
+.sidebar-icon {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 60%;
+  display: flex;
+
+  padding-left: 10px;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .sidebar {
+    top: 0;
+    left: -250px;
+    /* Initially hidden off the screen */
+    width: 250px;
+    height: 100%;
+    background-color: #0b3558;
+    transition: left 0.3s ease;
+    z-index: 1000;
+    /* Ensure sidebar appears above other content */
+  }
+} */
+
+@media only screen and (max-width: 768) {
+  .mobilecolumn {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    /* Adjust as needed */
+    /* Ensure sidebar appears above other content */
+  }
+}
+.containerxyz{
+    /* border: 1px solid red; */
+    padding: 15px 0px !important;
+    /* margin-top: -500px; */
+    margin: 0px auto;
+    width: 75%;
+    height: 171.031px;
+    /* display: none; */
+  
+}
+
+.containerxyz {
+  display: flex;
+  justify-content: center;
+}
+
+.unit-blocks {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.block {
+  width:17.25%;
+  text-align: center;
+}
+
+.block img {
+  width: 100px; /* Adjust the image width as needed */
+  height: auto;
+}
+
+@media (max-width: 917px) {
+  .block {
+      width: 45%;
+  }
+  .containerxyz{
+    height: 342.062px;
+    width: 90%;
+
+  }
+}
+
+/* @media only screen and (max-width: 768px) {
+  .mrindia {
+    top: 0;
+    /* Ensure sidebar appears above other content */
+  }
+} */
+
 
