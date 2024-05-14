@@ -99,8 +99,8 @@ nav {
 
 .navbar-links li a:hover {
   color: #e4f9ff;
-  border-bottom: 2px solid rgb(59, 180, 251);
-  background-color: #0b3558;
+  /* border-bottom: 2px solid rgb(59, 180, 251); */
+  /* background-color: #0b3558; */
 }
 
 .navbar-links a {
@@ -471,12 +471,12 @@ header.scrolled{
     z-index: 1000;
     /* Ensure sidebar appears above other content */
   }
-} */
+} 
 
 @media only screen and (max-width: 768) {
   .mobilecolumn {
     display: flex;
-    flex-direction: column;
+    flex-direction : column;
     margin: 10px;
     /* Adjust as needed */
     /* Ensure sidebar appears above other content */
