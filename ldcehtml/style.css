@@ -440,8 +440,8 @@ header.scrolled{
 /*   .navbar-links li {
     margin-bottom: 10px;
     /* Add spacing between links */
-  }
-}
+  /* }
+} */
 
 /* Media query for larger screens (optional) */
 @media only screen and (min-width: 768px) {
@@ -486,7 +486,8 @@ header.scrolled{
     /* border: 1px solid red; */
     padding: 15px 0px !important;
     /* margin-top: -500px; */
-    margin: 0px auto;
+    margin: -100px auto;
+    margin-bottom: 50px;
     width: 75%;
     height: 171.031px;
     /* display: none; */
@@ -528,8 +529,8 @@ header.scrolled{
   .mrindia {
     top: 0;
     /* Ensure sidebar appears above other content */
-  }
-} */
+  /* } */
+/* } */ 
 
 .dropdown-content {
 
