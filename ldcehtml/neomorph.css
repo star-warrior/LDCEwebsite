@@ -1,0 +1,30 @@
+/*? Main Navbar Section Neomorphism */
+
+header .navbar-links li:hover {
+  background: linear-gradient(315deg, #1d95b7, #22b2d9);
+  box-shadow: -12px -12px 24px #16738c, 12px 12px 24px #2ad9ff;
+  color: white;
+  transition: 0.5s linear;
+}
+
+.navbar-links .active:hover {
+  color: white;
+  border-bottom: none;
+}
+
+/*? 4 Card Section Neomorphism */
+
+.unit-blocks .block:hover {
+  box-shadow: 12px 12px 24px #b4c5c9, -12px -12px 24px #ffffff;
+  border-radius: 15px;
+  transform: scale(1.06);
+  transition: 0.5s ease-in-out;
+}
+
+.unit-blocks .block-alt:hover
+{
+    box-shadow: 12px 12px 24px #072239, -12px -12px 24px #0f4877;
+    border-radius: 15px;
+    transform: scale(1.06);
+    transition: 0.5s ease-in-out;
+}

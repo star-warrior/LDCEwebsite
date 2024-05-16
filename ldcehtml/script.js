@@ -17,10 +17,14 @@ function remove() {
 }
 document.addEventListener('scroll',()=>{
   const header=document.querySelector('header');
+  const navbar_links = document.querySelector('navbar-links')
+
   if(window.scrollY>100){
     header.classList.add('scrolled');
+    navbar_links.classList.add('scrolled');
   }else{
     header.classList.remove('scrolled');
+    navbar_links.classList.remove('scrolled');
   }
 })
 
